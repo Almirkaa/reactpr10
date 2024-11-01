@@ -1,0 +1,51 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 420px;
+    padding: 0 10px;
+}
+.imgBox{
+    width: 420px;
+    height: 344px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.imgBox img{
+    width: 100%;
+    transition: .5s;
+}
+.card:hover .imgBox img{
+    width: 110%;
+}
+h4{
+    font-size: 15px;
+    font-weight: 500;
+    color: #232323;
+    width: 410px;
+}
+.price_btn{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+    font-size: 32px;
+    font-weight: 500;
+    color: #0009EA;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    color: #F5F5F5;
+    background-color: #0009EA;
+    border-radius: 4px;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: #0006c0;
+}

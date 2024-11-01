@@ -1,0 +1,31 @@
+.user{
+    font-size: 20px;
+    color: #282828;
+    padding: 10px;
+    margin-top: 40px;
+}
+.form{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 80px;
+}
+button{
+    outline: none;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    background-color: #0009EA;
+    color: #fff;
+    padding: 8px 15px;
+  border: 2px solid #0009EA;
+}
+button:hover{
+ background-color: transparent;
+ color: #0009EA;
+}
+.message{
+    color: #00930f;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-weight: 900;
+}

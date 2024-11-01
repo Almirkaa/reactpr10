@@ -1,0 +1,11 @@
+h2{
+    margin-bottom: 40px;
+}
+.cards{
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    gap: 40px 20px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}

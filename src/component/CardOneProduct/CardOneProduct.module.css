@@ -1,0 +1,82 @@
+
+.toHome{
+    padding: 10px 20px;
+    background-color: #E5E5E5;
+    color: #0009EA;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    margin-top: 76px;
+    margin-bottom: 25px;
+    display: inline-block;
+    transition: .5s;
+}
+.toHome:hover{
+    background-color: #cacaca;
+
+}
+.card__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.imgBox {
+    width: 500px;
+    height: 500px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.imgBox img {
+    width: 100%;
+}
+
+.txtBox {
+    display: flex;
+    flex-direction: column;
+
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 500;
+    width: 700px;
+    margin-bottom: 30px;
+
+}
+
+.txt {
+    font-size: 16px;
+    font-weight: 300;
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+.price_btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: 500;
+    color: #0009EA;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    color: #F5F5F5;
+    background-color: #0009EA;
+    border-radius: 4px;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #0006c0;
+}
